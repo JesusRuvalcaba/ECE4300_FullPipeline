@@ -86,7 +86,7 @@ You should see `registers[1]` progress: **0 → 1 → 3 → 6 → 12**
 
 ## Timing Diagram Result
 
-![Timing Diagram](JanneTimingDiagram.png)
+![Timing Diagram](janne_full_MIPS/JanneTimingDiagram.png)
 
 The waveform confirms:
 - `registers[0]` = 0 (constant)
