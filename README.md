@@ -128,3 +128,13 @@ wb[1:0]  = {RegWrite, MemToReg}
 | `instr.mem` | Instruction memory contents (binary) |
 | `data.mem` | Data memory contents (binary) |
 | `JanneTimingDiagram.png` | Simulation timing diagram proof |
+
+
+
+# Full MIPS 5-Stage Pipeline — Jesus' Implementation
+
+(Will update README after verifying opcode correctness.)
+
+<img width="1681" height="453" alt="image" src="https://github.com/user-attachments/assets/c791acb9-1ea6-41f6-8b26-1504d6a709eb" />
+
+
