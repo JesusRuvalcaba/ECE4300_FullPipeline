@@ -135,7 +135,8 @@ wb[1:0]  = {RegWrite, MemToReg}
 
 The example program used in this pipeline demonstrates sequential accumulation (e.g., summing   values like 1 + 2 + 3 + 6 = 12).  
 
-<img width="1270" height="467" alt="image" src="https://github.com/user-attachments/assets/3373583c-deba-4309-8b63-4222b0e8beae" />
+<img width="1666" height="458" alt="image" src="https://github.com/user-attachments/assets/aa19441b-1661-4fd8-9a7f-a66ffb4fa458" />
+
   
 #R-Type (Register instructions like ADD)  
 
