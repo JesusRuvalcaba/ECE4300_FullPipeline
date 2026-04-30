@@ -166,3 +166,23 @@ funct = 100000 (ADD)
 <img width="856" height="343" alt="image" src="https://github.com/user-attachments/assets/e219c98f-2627-410c-83d4-db8acc88e93a" />
 
 
+To view the proper registers from instantiated module I went to "Scope" then under "Objects" the corresponding registers to each module were dragged and dropped into the waveform.  
+
+<img width="1310" height="770" alt="image" src="https://github.com/user-attachments/assets/ef988b88-66a1-4613-98a5-0a61d2e9a494" />
+
+
+<img width="1895" height="638" alt="image" src="https://github.com/user-attachments/assets/d6e5dade-2cfa-4762-b1b6-9c7b20a56323" />
+
+
+
+instr.mem  
+
+<img width="343" height="593" alt="image" src="https://github.com/user-attachments/assets/836cef52-4697-4c01-8776-344cfc607d87" />
+
+data.mem  
+
+<img width="290" height="153" alt="image" src="https://github.com/user-attachments/assets/e6649d7f-1cbf-4686-b41f-58acbccd54f1" />
+
+
+
+
