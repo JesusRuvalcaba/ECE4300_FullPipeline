@@ -154,15 +154,15 @@ opcode = 000000 (R-type)
 funct = 100000 (ADD)
 
 
-#I-Type (Immediate instructions like LW, SW, BEQ)
-
--LW, SW, BEQ, ADDI
-
-[31:26] opcode   (6 bits)
-[25:21] rs       (5 bits)
-[20:16] rt       (5 bits)
-[15:0]  immediate (16 bits)
-
+#I-Type (Immediate instructions like LW, SW, BEQ)  
+  
+-LW, SW, BEQ, ADDI  
+  
+[31:26] opcode   (6 bits)  
+[25:21] rs       (5 bits)  
+[20:16] rt       (5 bits)  
+[15:0]  immediate (16 bits)  
+  
 <img width="856" height="343" alt="image" src="https://github.com/user-attachments/assets/e219c98f-2627-410c-83d4-db8acc88e93a" />
 
 
