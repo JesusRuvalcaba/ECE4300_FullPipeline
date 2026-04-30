@@ -133,8 +133,36 @@ wb[1:0]  = {RegWrite, MemToReg}
 
 # Full MIPS 5-Stage Pipeline — Jesus' Implementation
 
-(Will update README after verifying opcode correctness.)
+The example program used in this pipeline demonstrates sequential accumulation (e.g., summing   values like 1 + 2 + 3 + 6 = 12).  
 
-<img width="1681" height="453" alt="image" src="https://github.com/user-attachments/assets/c791acb9-1ea6-41f6-8b26-1504d6a709eb" />
+<img width="1270" height="467" alt="image" src="https://github.com/user-attachments/assets/3373583c-deba-4309-8b63-4222b0e8beae" />
+  
+#R-Type (Register instructions like ADD)  
+
+-Used for operations like: ADD, SUB, AND, OR, SLT  
+
+[31:26] opcode   (6 bits)  
+[25:21] rs       (5 bits)  
+[20:16] rt       (5 bits)  
+[15:11] rd       (5 bits)  
+[10:6]  shamt    (5 bits)  
+[5:0]   funct    (6 bits)  
+
+Example: ADD R1, R2, R3
+
+opcode = 000000 (R-type)
+funct = 100000 (ADD)
+
+
+#I-Type (Immediate instructions like LW, SW, BEQ)
+
+-LW, SW, BEQ, ADDI
+
+[31:26] opcode   (6 bits)
+[25:21] rs       (5 bits)
+[20:16] rt       (5 bits)
+[15:0]  immediate (16 bits)
+
+<img width="856" height="343" alt="image" src="https://github.com/user-attachments/assets/e219c98f-2627-410c-83d4-db8acc88e93a" />
 
 
